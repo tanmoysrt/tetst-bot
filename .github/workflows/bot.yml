@@ -12,6 +12,6 @@ jobs:
         with:
           node-version: 18
       - name: 'Swift Bot'
-        uses: tanmoysrt/bot@unlock_conversion_on_label_removal
+        uses: tanmoysrt/bot@5be2ccde4960d152d5fac9e2edf7ef41dbcf01c5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

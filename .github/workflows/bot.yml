@@ -11,7 +11,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm install
       - name: 'Swift Bot'
         uses: tanmoysrt/bot@unlock_conversion_on_label_removal
         with:

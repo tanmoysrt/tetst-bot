@@ -7,6 +7,8 @@ on:
 jobs:
   welcome-new-contributor:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - name: 'Swift Bot'
         uses: tanmoysrt/bot@unlock_conversion_on_label_removal

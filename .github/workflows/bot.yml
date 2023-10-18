@@ -1,0 +1,14 @@
+name: 'Welcome New Contributors'
+
+on:
+  issues:
+    types: [unlabeled]
+
+jobs:
+  welcome-new-contributor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Swift Bot'
+        uses: tanmoysrt/bot@unlock_conversion_on_label_removal
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

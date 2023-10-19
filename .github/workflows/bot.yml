@@ -13,7 +13,7 @@ jobs:
       issues: write
     steps:
       - name: 'Swift Bot'
-        uses: tanmoysrt/bot@add_approve_command
+        uses: tanmoysrt/bot@add_update_command
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           triage-team-usernames: tanmoysrt

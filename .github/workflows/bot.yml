@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-      contents: write
+      pull-requests: write
     steps:
       - name: 'Swift Bot'
         uses: tanmoysrt/bot@add_update_command

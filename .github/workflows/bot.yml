@@ -3,6 +3,8 @@ name: 'Welcome New Contributors'
 on:
   issues:
     types: [unlabeled]
+  issue_comment:
+    types: [created]
 
 jobs:
   welcome-new-contributor:
@@ -11,6 +13,7 @@ jobs:
       issues: write
     steps:
       - name: 'Swift Bot'
-        uses: tanmoysrt/bot@unlock_conversion_on_label_removal
+        uses: swiftwave-org/bot@develop
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          triage-team-usernames: tanmoysrt

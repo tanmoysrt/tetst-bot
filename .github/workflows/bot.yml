@@ -1,5 +1,4 @@
 name: 'Welcome New Contributors'
-
 on:
   issues:
     types: [unlabeled]

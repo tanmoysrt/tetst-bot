@@ -13,7 +13,6 @@ jobs:
       issues: write
       pull-requests: write
       contents: write
-      repository-projects: write
     steps:
       - name: 'Swift Bot'
         uses: tanmoysrt/bot@add_update_command

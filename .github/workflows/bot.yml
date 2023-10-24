@@ -2,7 +2,7 @@ name: 'Welcome New Contributors'
 
 on:
   issues:
-    types: [unlabeled]
+    types: [opened, unlabeled]
   issue_comment:
     types: [created]
 

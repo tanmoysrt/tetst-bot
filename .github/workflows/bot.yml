@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: 'Swift Bot'
-        uses: looneyD-ROHIT/feature@add_labels_and_lock_new_issues
+        uses: looneyD-ROHIT/bot@feature/add_labels_and_lock_new_issues
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           triage-team-usernames: tanmoysrt

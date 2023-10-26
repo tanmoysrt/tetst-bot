@@ -8,7 +8,7 @@ on:
 
 jobs:
   welcome-new-contributor:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       issues: write
       pull-requests: write
